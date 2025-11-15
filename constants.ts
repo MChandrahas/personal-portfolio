@@ -1,4 +1,3 @@
-
 import type { Project, Skill } from './types';
 
 export const PERSONAL_INFO = {
@@ -14,14 +13,14 @@ export const PROJECTS: Project[] = [
   {
     title: "DevMetrics Pro - GitHub Analytics Dashboard",
     description: "A full-stack web application that visualizes GitHub repository metrics to help developers track project activity. Integrated GitHub OAuth and REST API to fetch data, with a performant backend and an interactive dashboard using React and Recharts.",
-    imageUrl: "https://picsum.photos/seed/devmetrics/1200/800",
+    imageUrl: "https://source.unsplash.com/1200x800/?dashboard,analytics,code",
     tags: ["React", "Node.js", "PostgreSQL", "Redis", "Socket.io", "GitHub API", "Recharts", "Express.js"],
     sourceUrl: "https://github.com/MChandrahas",
   },
   {
     title: "CollabCanvas - Real-Time Collaborative Whiteboard",
     description: "A web-based drawing application where multiple users can collaborate on a shared canvas simultaneously. Built with Socket.io for real-time synchronization and the HTML5 Canvas API with Fabric.js for drawing tools.",
-    imageUrl: "https://picsum.photos/seed/collabcanvas/1200/800",
+    imageUrl: "https://source.unsplash.com/1200x800/?whiteboard,collaboration,drawing",
     tags: ["React", "Node.js", "Socket.io", "HTML5 Canvas", "Fabric.js"],
     sourceUrl: "https://github.com/MChandrahas",
   },
